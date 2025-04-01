@@ -1,0 +1,19 @@
+body{
+    padding: 10px 150px;
+}
+main{
+    background-image: url('../images/book_story.png');
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+}
+.left{
+    width: 30%;
+    margin-top: 60px;
+    margin-left: 140px;
+}
+.right{
+    width: 30%;
+    margin-top: 60px;
+    margin-left: 160px;transform: rotate(-2deg);
+}

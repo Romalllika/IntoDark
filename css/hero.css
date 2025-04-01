@@ -1,0 +1,73 @@
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background-image: url(../images/catalogs.jpg);
+    height: 100vh;
+}
+.card-main{
+    display: flex;
+    width: 800px;
+    height: 570px;
+    /* background-color: darkgray; */
+    background-image: url(../images/dosye.png);
+    background-size: cover;
+    z-index: 5;
+}
+.picture{
+    width: 400px;
+    height: 570px;
+    text-align: center;
+}
+.picture img{
+    height: 70%;
+    margin: 90px 0px 0px 60px;
+}
+.info{
+    width: 400px;
+    height: 550px;
+    padding: 15px 20px;
+}
+.info h2{
+    margin-top: 100px;
+
+}
+.info h2, h3{
+    text-align: center;
+}
+.info p{
+    font-size:larger;
+}
+.info a{
+    color: green;
+    text-decoration: none;
+    font-size: large;
+}
+.info a:hover{
+    font-size: larger;
+    color: rgb(0, 83, 0);
+}
+#back{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: fixed;
+    top: 120px;
+    right: 370px;
+    border: 1px solid black;
+}
+.overlay{
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Затемнение фона */
+    z-index: 1; /* Под меню */
+}
+#back img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
